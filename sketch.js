@@ -2,7 +2,12 @@ let time = 0;
 let rndAmt = 0;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.style('display', 'block');
+  cnv.position(0, 0);
+  cnv.style('display', 'block');
+  cnv.style('z-index', '-1');
 }
 
 function draw() {
