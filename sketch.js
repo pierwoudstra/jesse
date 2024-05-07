@@ -2,13 +2,18 @@ let time = 0;
 let rndAmt = 0;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  // createCanvas(windowWidth, windowHeight);
+  var cnv = createCanvas(windowWidth, windowHeight);
+  cnv.style('display', 'block');
+  cnv.position(0, 0);
+  cnv.style('display', 'block');
+  cnv.style('z-index', '-1');
 }
 
 function draw() {
   background(220);
   textSize(28);
-  translate(200, 0);
+  translate(height/3, 0);
   shearX(PI / -6);
   fill('black');
   text('jesse andriesse',width-mouseX,height-mouseY);
@@ -33,4 +38,8 @@ function draw() {
     // text('★', (width/5) * 3.25, (height/4) * 2.75);
     
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }

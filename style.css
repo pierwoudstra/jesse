@@ -6,3 +6,17 @@ html, body {
 canvas {
   display: block;
 }
+
+p {
+  text-align: justify;
+  color: blue;
+}
+
+.columns {
+  display: grid;
+  flex-wrap: wrap;
+  padding: 20px;
+
+  grid-template-columns: 30% 40% 30%;
+  grid-gap: 20px;
+}
