@@ -8,7 +8,7 @@ function setup() {
 function draw() {
   background(220);
   textSize(28);
-  translate(200, 0);
+  translate(height/3, 0);
   shearX(PI / -6);
   fill('black');
   text('jesse andriesse',width-mouseX,height-mouseY);
@@ -33,4 +33,8 @@ function draw() {
     // text('★', (width/5) * 3.25, (height/4) * 2.75);
     
   }
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
