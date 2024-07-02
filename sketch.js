@@ -13,7 +13,7 @@ function setup() {
 }
 
 function draw() {
-  background(255, 255, 255, 50);
+  background(255, 255, 255, 150);
 
   translate(height/3, 0);
   shearX(PI / -6);
