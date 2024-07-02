@@ -3,13 +3,15 @@ let rndAmt = 0;
 
 function setup() {
   // createCanvas(windowWidth, windowHeight);
+
+  let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
+  a.position(0, 0);
+
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
   cnv.position(0, 0);
   cnv.style('display', 'block');
   cnv.style('z-index', '-1');
-
-  // let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
 }
 
 function draw() {
