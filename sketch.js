@@ -5,7 +5,7 @@ function setup() {
   // createCanvas(windowWidth, windowHeight);
 
   let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
-  a.position(0, 0);
+  a.position(width - mouseX, (height - mouseY) + 20);
 
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
@@ -16,8 +16,6 @@ function setup() {
 
 function draw() {
   background(255, 255, 255, 50);
-
-  a.position(width - mouseX, (height - mouseY) + 20);
 
   textSize(28);
   translate(height/3, 0);
