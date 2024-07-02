@@ -14,6 +14,13 @@ a {
   font-size: 20px;
 }
 
+p {
+  text-align: justify;
+  color: grey;
+  text-decoration: none;
+  font-size: 20px;
+}
+
 .columns {
   display: grid;
   flex-wrap: wrap;
@@ -24,11 +31,6 @@ a {
 }
 
 .instagram {
-  text-align: justify;
-  color: grey;
-  text-decoration: none;
-  font-size: 20px;
-
   position: relative;
   animation: move-words 20s linear infinite;
   margin: 0;
