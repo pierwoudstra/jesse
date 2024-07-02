@@ -11,7 +11,7 @@ function setup() {
 
   let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
   a.position(0, 0);
-  a.style('display', 'block');
+  // a.style('display', 'block');
   a.style('z-index', '0');
 }
 
