@@ -18,6 +18,7 @@ function draw() {
   translate(height/3, 0);
   shearX(PI / -6);
   textFont('Times New Roman');
+  textSize(20);
   fill('grey');
   text('jesse andriesse',width-mouseX,height-mouseY);
 
