@@ -15,10 +15,10 @@ function setup() {
 function draw() {
   background(255, 255, 255, 50);
 
-  textSize(28);
   translate(height/3, 0);
   shearX(PI / -6);
-  fill('black');
+  textFont('Times New Roman');
+  fill('grey');
   text('jesse andriesse',width-mouseX,height-mouseY);
 
 
