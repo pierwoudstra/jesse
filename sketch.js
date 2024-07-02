@@ -10,9 +10,7 @@ function setup() {
   cnv.style('z-index', '-1');
 
   let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
-  a.position(0, 0);
-  // a.style('display', 'block');
-  // a.style('z-index', '0');
+  // a.position(0, 0);
 }
 
 function draw() {
