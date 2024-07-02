@@ -32,7 +32,8 @@ function draw() {
 
     rndAmt = random(8);
 
-    text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);    
+    // text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);    
+    text('★', cos( (time/ 1000) * i) * height/2, sin( (time/ 1000) * i) * height/2);    
   }
 
 }
