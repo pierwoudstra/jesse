@@ -10,6 +10,9 @@ function setup() {
   cnv.style('z-index', '-1');
 
   let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
+  a.position(0, 0);
+  a.style('display', 'block');
+  a.style('z-index', '0');
 }
 
 function draw() {
@@ -19,6 +22,8 @@ function draw() {
   shearX(PI / -6);
   fill('black');
   text('jesse andriesse',width-mouseX,height-mouseY);
+
+  a.position(width - mouseX, (height - mouseY) + 20);
 
   time++;
   
@@ -32,7 +37,6 @@ function draw() {
     text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);    
   }
 
-  a.position(width - mouseX, (height - mouseY) + 20);
 }
 
 function windowResized() {
