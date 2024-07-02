@@ -7,9 +7,10 @@ canvas {
   display: block;
 }
 
-p {
+a {
   text-align: justify;
   color: blue;
+  text-decoration: none;
 }
 
 .columns {
