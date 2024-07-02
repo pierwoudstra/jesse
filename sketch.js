@@ -9,8 +9,7 @@ function setup() {
   cnv.style('display', 'block');
   cnv.style('z-index', '-1');
 
-  let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
-  // a.position(0, 0);
+  // let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
 }
 
 function draw() {
@@ -21,7 +20,7 @@ function draw() {
   fill('black');
   text('jesse andriesse',width-mouseX,height-mouseY);
 
-  a.position(width - mouseX, (height - mouseY) + 20);
+  // a.position(width - mouseX, (height - mouseY) + 20);
 
   time++;
   
