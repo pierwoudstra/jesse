@@ -16,13 +16,15 @@ function setup() {
 
 function draw() {
   background(255, 255, 255, 50);
+
+  a.position(width - mouseX, (height - mouseY) + 20);
+
   textSize(28);
   translate(height/3, 0);
   shearX(PI / -6);
   fill('black');
   text('jesse andriesse',width-mouseX,height-mouseY);
 
-  // a.position(width - mouseX, (height - mouseY) + 20);
 
   time++;
   
