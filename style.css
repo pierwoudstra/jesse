@@ -27,6 +27,7 @@ a {
   position: relative;
   animation: move-words 20s linear infinite;
   margin: 0;
+  margin-top: 50%;
 }
 
 @keyframes move-words {
