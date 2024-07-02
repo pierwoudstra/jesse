@@ -9,11 +9,11 @@ function setup() {
   cnv.style('display', 'block');
   cnv.style('z-index', '-1');
 
-  let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente');
 }
 
 function draw() {
   background(255, 255, 255, 50);
+  let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
   textSize(28);
   translate(height/3, 0);
   shearX(PI / -6);
@@ -30,16 +30,7 @@ function draw() {
 
     rndAmt = random(8);
 
-    text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);
-    // text('★', (width/5), (height/2));
-    // text('★', (width/5) * 1.75, (height/4) * 1.25);
-    // text('★', (width/5) * 4, (height/2));
-    // text('★', (width/5) * 3.25, (height/4) * 1.25);
-    // text('★', (width/2), (height/5));
-    // text('★', (width/5) * 1.75, (height/4) * 2.75);
-    // text('★', (width/2), (height/5) * 4);
-    // text('★', (width/5) * 3.25, (height/4) * 2.75);
-    
+    text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);    
   }
 }
 
