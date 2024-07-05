@@ -37,11 +37,27 @@ p {
   margin-top: 50%;
 }
 
+.email {
+  position: relative;
+  animation: move-words-mirror 13s linear infinite;
+  margin: 0;
+  margin-top: 70%;
+}
+
 @keyframes move-words {
   0% {
     left: 100%;
   }
   100% {
     left: -100%;
+  }
+}
+
+@keyframes move-words-mirror {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
   }
 }
