@@ -2,8 +2,6 @@ let time = 0;
 let rndAmt = 0;
 
 function setup() {
-  // let a = createA('https://www.instagram.com/zwarelente/', '@zwarelente', '_blank');
-  // a.position(width - mouseX, (height - mouseY) + 20);
 
   var cnv = createCanvas(windowWidth, windowHeight);
   cnv.style('display', 'block');
@@ -32,7 +30,6 @@ function draw() {
 
     rndAmt = random(8);
 
-    // text('★', cos( (mouseX/1000 + mouseY/1000) * i) * height/2, sin( (mouseX/1000 + mouseY/1000) * i) * height/2);    
     text('★', cos( (time/ 1000) * i) * height/2, sin( (time/ 1000) * i) * height/2);    
   }
 
