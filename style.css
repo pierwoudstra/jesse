@@ -107,11 +107,19 @@ nav h1 {
 }
 
 .menu img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    display:grid;
+    margin-left: 10%;
+    /* margin-right: auto; */
+    width: 40%; 
     box-shadow: 0px 5px 5px 5px rgb(144, 144, 144);
+    /* float: left; */
+}
+
+.text {
+    width: 30%;
+    margin-right: 10%;
+    font-size: medium;
+    float: right;
 }
 
 .menu2 img {
